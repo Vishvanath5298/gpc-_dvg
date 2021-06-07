@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Prasad Constructions-Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images\gpc1.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>ನಮ್ಮ ಸೇವೆಗಳು<br>Our Services</h1>
+    </section>
+    <section class="services">
+        <div class="row">
+            <div class="course-col">
+                <h3>ರಸ್ತೆ ನಿರ್ಮಾಣ<br>Road construction</h3>
+               <img src="images\gpc images\arc layout hadagali ballari\12345.jpg" alt="">
+            </div>
+            
+            <div class="course-col">
+                <h3>ವಿನ್ಯಾಸ ಅಭಿವೃದ್ಧಿ<br>Layout Development </h3>
+                <img src="images\gpc images\arc layout hadagali ballari\12345.jpg" alt="">
+            </div>
+            <div class="course-col">
+                <h3>ಉದ್ಯಾನವನ ಅಭಿವೃದ್ಧಿ<br>Park development</h3>
+                <img src="images\gpc images\shri ujjaini siddeshwara layout kottur\park.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!------------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nulla eius molestiae aut accusamus <br>repellendus provident quas et hic quasi, impedit porro eum
+            voluptate repellat in deleniti? Perferendis, ipsum
+            ipsam.</p>
+        <div class="icons">
+            <i class="fas fa-facebook"></i>
+            <i class="fas fa-twitter"></i>
+            <i class="fas fa-instagram"></i>
+            <i class="fas fa-linkedin"></i>
+        </div>
+        <p>Made with<i class="fas fa-heart-0"></i>by vifla technologies </p>
+    </section>
+
+
+
+
+    <!-----  javascript toggle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
