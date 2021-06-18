@@ -21,7 +21,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 250px;
 }
 .nav-links{
     flex: 1;
@@ -344,6 +344,15 @@ p{
     display: flex;
     justify-content: space-between;
 }
+/*-----course-----*/
+.courses{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background-image:linear-gradient(rgba(254, 254, 255, 0.9),rgba(193, 195, 201, 0.7)),url(images/banner.png) ;
+
+}
 .course-col{
     flex-basis: 31%;
     background: #fff3f3;
@@ -632,6 +641,29 @@ testimonial-col p{
         font-size: 24px;
     }
 }
+/*-----project-----*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
 /*--------contact us page----*/
 .location{
     width: 80%;

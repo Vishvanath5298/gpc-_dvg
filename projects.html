@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ganesh Prasad Constructions-Projects</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap"
         rel="stylesheet">
@@ -36,99 +37,224 @@
     <!-------facilities------->
     <section class="projects">
         <h1>ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆಗಳು <br> COMPLETED PROJECTS </h1>
+        <div class="row">
+            <div class="column">
+                <img src="images\gpc images\govt employers project mysore\m1.jpeg" style="width:100%"
+                    onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="images\gpc images\govt employers project mysore\m2.jpeg" style="width:100%"
+                    onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="images\gpc images\govt employers project mysore\m3.jpeg" style="width:100%"
+                    onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="images\gpc images\govt employers project mysore\m4.jpeg" style="width:100%"
+                    onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="images\gpc images\govt employers project mysore\m5.jpeg" style="width:100%"
+                    onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="images\gpc images\govt employers project mysore\m6.jpeg" style="width:100%"
+                    onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            </div>
+        </div>
 
-        <div class="p-container">
-            <div class="p-mySlides">
-                <div class="p-numbertext">1 / 6</div>
-                <img src="images\gpc images\govt employers project mysore\m1.jpeg" style="width:100%">
-            </div>
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
 
-            <div class="p-mySlides">
-                <div class="p-numbertext">2 / 6</div>
-                <img src="images\gpc images\govt employers project mysore\m2.jpeg" style="width:100%">
-            </div>
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="images\gpc images\govt employers project mysore\m1.jpeg" style="width:100%">
+                </div>
 
-            <div class="p-mySlides">
-                <div class="p-numbertext">3 / 6</div>
-                <img src="images\gpc images\govt employers project mysore\m3.jpeg" style="width:100%">
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="images\gpc images\govt employers project mysore\m2.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="images\gpc images\govt employers project mysore\m3.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="images\gpc images\govt employers project mysore\m4.jpeg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="images\gpc images\govt employers project mysore\m5.jpeg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="images\gpc images\govt employers project mysore\m6.jpeg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+
+                <div class="column">
+                    <img class="demo cursor" src="images\gpc images\govt employers project mysore\m1.jpeg"
+                        style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images\gpc images\govt employers project mysore\m2.jpeg"
+                        style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images\gpc images\govt employers project mysore\m3.jpeg"
+                        style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images\gpc images\govt employers project mysore\m4.jpeg"
+                        style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images\gpc images\govt employers project mysore\m5.jpeg"
+                        style="width:100%" onclick="currentSlide(5)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images\gpc images\govt employers project mysore\m6.jpeg"
+                        style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
+                </div>
             </div>
-            <div class="p-mySlides">
-                <div class="p-numbertext">4 / 6</div>
-                <img src="images\gpc images\govt employers project mysore\m4.jpeg" style="width:100%">
-            </div>
-            <div class="p-mySlides">
-                <div class="p-numbertext">5 / 6</div>
-                <img src="images\gpc images\govt employers project mysore\m5.jpeg" style="width:100%">
-            </div>
-            <div class="p-mySlides">
-                <div class="p-numbertext">6 / 6</div>
-                <img src="images\gpc images\govt employers project mysore\m6.jpeg" style="width:100%">
-            </div>
-            <a class="p-prev" onclick="plusSlides(-1)">❮</a>
-            <a class="p-next" onclick="plusSlides(1)">❯</a>
         </div>
         <h4>ಸರ್ಕಾರಿ ನೌಕರರ ಮೈಸೂರು ಯೋಜನೆ<br>govt employers project mysuru</h4>
     </section>
-    <section class="projects">
+     <section class="projects">
         <h1>ಪ್ರಗತಿಯಲ್ಲಿರುವ ಯೋಜನೆಗಳು<br>PROGRESSING PROJECTS</h1>
-
-        <div class="p-container">
-            <div class="p-mySlides">
-                <div class="p-numbertext">1 / 6</div>
-                <img src="images\gpc images\rajkumar layout davanagere\d1.jpeg" style="width:100%">
+          <div class="row">
+                <div class="column">
+                    <img src="images\gpc images\rajkumar layout davanagere\d1.jpeg" style="width:100%"
+                        onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="images\gpc images\rajkumar layout davanagere\d2.jpeg" style="width:100%"
+                        onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="images\gpc images\rajkumar layout davanagere\d3.jpeg" style="width:100%"
+                        onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="images\gpc images\rajkumar layout davanagere\d4.jpeg" style="width:100%"
+                        onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="images\gpc images\rajkumar layout davanagere\d5.jpeg" style="width:100%"
+                        onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="images\gpc images\rajkumar layout davanagere\d6.jpeg" style="width:100%"
+                        onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                </div>
             </div>
-
-            <div class="p-mySlides">
-                <div class="p-numbertext">2 / 6</div>
-                <img src="images\gpc images\rajkumar layout davanagere\d1.jpeg" style="width:100%">
+    
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+    
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="images\gpc images\rajkumar layout davanagere\d1.jpeg" style="width:100%">
+                    </div>
+    
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images\gpc images\rajkumar layout davanagere\d2.jpeg" style="width:100%">
+                    </div>
+    
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images\gpc images\rajkumar layout davanagere\d3.jpeg" style="width:100%">
+                    </div>
+    
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images\gpc images\rajkumar layout davanagere\d4.jpeg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="images\gpc images\rajkumar layout davanagere\d5.jpeg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="images\gpc images\rajkumar layout davanagere\d6images\gpc images\rajkumar layout davanagere\d1.jpeg   
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+    
+    
+                    <div class="column">
+                        <img class="demo cursor" src="images\gpc images\rajkumar layout davanagere\d1.jpeg"
+                            style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images\gpc images\rajkumar layout davanagere\d2.jpeg"
+                            style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images\gpc images\rajkumar layout davanagere\d3.jpeg"
+                            style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images\gpc images\rajkumar layout davanagere\d4.jpeg"
+                            style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images\gpc images\rajkumar layout davanagere\d5.jpeg"
+                            style="width:100%" onclick="currentSlide(5)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images\gpc images\rajkumar layout davanagere\d6.jpeg"
+                            style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
+                    </div>
+                </div>
             </div>
-
-            <div class="p-mySlides">
-                <div class="p-numbertext">3 / 6</div>
-                <img src="images\gpc images\rajkumar layout davanagere\d1.jpeg" style="width:100%">
-            </div>
-            <div class="p-mySlides">
-                <div class="p-numbertext">4 / 6</div>
-                <img src="images\gpc images\rajkumar layout davanagere\d1.jpeg" style="width:100%">
-            </div>
-            <div class="p-mySlides">
-                <div class="p-numbertext">5 / 6</div>
-                <img src="images\gpc images\rajkumar layout davanagere\d1.jpeg" style="width:100%">
-            </div>
-            <div class="p-mySlides">
-                <div class="p-numbertext">6 / 6</div>
-                <img src="images\gpc images\rajkumar layout davanagere\d1.jpeg" style="width:100%">
-            </div>
-            <a class="p-prev" onclick="plusSlides(-1)">❮</a>
-            <a class="p-next" onclick="plusSlides(1)">❯</a>
-        </div>
         <h4>ರಾಜಕುಮಾರ ಲೇಔಟ್ ದಾವಣಗೆರೆ<br>rajkumar layout davanagere</h4>
     </section>
-  <!------------footer------->
-  <section class="footer">
-    <div class="row">
-        <div class="contact-col"> <h4>About Us</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               </p></div>
-                <div class="contact-col">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="projects.html">PROJECTS</a></li>
-                        <li><a href="services.html">SERVICES</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
+    <!------------footer------->
+    <section class="footer">
+        <div class="row">
+            <div class="contact-col">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="contact-col">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="contact-col">
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
                 </div>
-   <div class="contact-col"> <div class="icons">
-    <i class="fa fa-facebook"></i>
-    <i class="fa fa-twitter"></i>
-    <i class="fa fa-instagram"></i>
-    <i class="fa fa-linkedin"></i>
+            </div>
         </div>
-    </div>
-   </div>
-    <p>Made with<i class="fas fa-heart-0"></i>by vifla technologies </p>
-</section>
+        <p>Made with<i class="fas fa-heart-0"></i>by vifla technologies </p>
+    </section>
     <!-----  javascript toggle menu-->
     <script>
         var navlinks = document.getElementById("navlinks");
@@ -139,8 +265,8 @@
             navlinks.style.right = "-200px";
         }
     </script>
-     <script src="slide2.js"></script>
-     <script src="scrolltotop.js"></script>
+    <script src="slide2.js"></script>
+    <script src="scrolltotop.js"></script>
 </body>
 
 </html>
