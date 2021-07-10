@@ -188,7 +188,7 @@ nav img{
 /*-----project contents----*/
 /* Position the image container (needed to position the left and right arrows) */
 .projects{
-    width: 50%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
